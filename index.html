@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор Калорій</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Калькулятор Калорій</h1>
+    <div class="form">
+        <h2>Введення вправ</h2>
+        <input type="text" id="exercise-name" placeholder="Назва вправи">
+        <input type="number" id="exercise-calories" placeholder="Калорії за підхід">
+        <input type="number" id="exercise-reps" placeholder="Кількість підходів">
+        <button id="add-exercise">Додати вправу</button>
+    </div>
+    <div class="form">
+        <h2>Введення їжі</h2>
+        <input type="text" id="food-name" placeholder="Назва їжі">
+        <input type="number" id="food-calories" placeholder="Калорії">
+        <button id="add-food">Додати їжу</button>
+    </div>
+    <div>
+        <h2>Підсумок</h2>
+        <p>Загальні втрачені калорії: <span id="total-calories">0</span></p>
+    </div>
+</div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
